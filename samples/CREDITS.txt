@@ -1,0 +1,97 @@
+위례 ONE 시연용 샘플 사진 출처
+
+[1] 실제 사진 (manifest의 synthetic: false)
+
+아래 두 사진은 Wikimedia Commons의 원본을 긴 변 1600px로 줄이고 JPEG로 다시 저장한 것이다. 그 외 수정은 없다.
+같은 조건 변경 허락(ShareAlike) 조건이 있으므로, 사진을 재배포하거나 시연 영상·발표 자료에 쓸 때 저작자와 라이선스를 함께 표기한다.
+
+sample-street-gangnam.jpg
+  원제: Gangam 006.JPG
+  저작자: Piotrus (User:Piotrus)
+  라이선스: CC BY-SA 3.0 https://creativecommons.org/licenses/by-sa/3.0
+  출처: https://commons.wikimedia.org/wiki/File:Gangam_006.JPG
+
+sample-road-sejongdaero.jpg
+  원제: 2012-05-11 Sejong-daero before the Gwanghwamun.jpg
+  저작자: Mario Sanchez Prada
+  라이선스: CC BY-SA 2.0 https://creativecommons.org/licenses/by-sa/2.0
+  출처: https://commons.wikimedia.org/wiki/File:2012-05-11_Sejong-daero_before_the_Gwanghwamun.jpg
+
+주의: 사진에 실제 차량 번호판과 거리의 행인이 보인다. 번호판은 2012~2013년 서울 도로의 차량이고, 행인은 멀리 있거나 뒷모습이다.
+
+
+[2] 합성 예시 사진 (manifest의 synthetic: true)
+
+아래 15장은 실제 장면을 찍은 사진이 아니다. 들어 있는 이름·번호·주소·학교·학원·인물은 모두 가짜다.
+
+공통 제작 방식
+  배경: OpenAI Codex CLI 0.166.0의 내장 이미지 생성 도구(image_gen)로 생성. 사용자의 ChatGPT 로그인으로 실행했고 API 키는 쓰지 않았다.
+  외부 저작물: 배경에 Wikimedia 등 외부 사진을 쓰지 않았으므로 저작자 표시 대상 소재가 없다.
+  글자 합성: 배경에는 빈 흰 라벨·종이·화면만 그리게 한 뒤, Python(Pillow, NumPy)으로 가짜 글자를 원근 변환해 곱하기 합성(화면은 치환)하고 노이즈를 더했다.
+  글꼴: Windows 맑은 고딕(Malgun Gothic). 이미지 안에 렌더링한 글자로만 쓰며 글꼴 파일은 배포하지 않는다.
+  QR·바코드: qrcode 패키지(내용 https://example.com), python-barcode 패키지(Code128, 0으로 채운 가짜 번호).
+  저장: 긴 변 1536px, JPEG, EXIF 없음.
+
+파일별 내용 (괄호 안은 합성 여부)
+moto-sidewalk-plate.jpg     인도 위 오토바이. 번호판 00가 0000 (글자 합성)
+academy-van-crosswalk.jpg   횡단보도 위 학원 차량. 샘플학원, 전화번호, 번호판 00가 0000 (글자 합성)
+trash-parcel-label.jpg      쓰레기 더미 속 택배 송장. 가명, 주소, 전화번호, 바코드 (글자 합성)
+door-parcel-address.jpg     복도를 막은 택배·우편물. 가명, 동·호수, 전화번호, 바코드 (글자 합성)
+dumped-bags-receipt.jpg     무단투기 봉투 옆 영수증·견적서. 가명, 주소, 전화번호, 이메일, 바코드 (글자 합성)
+cracked-wall-flyers.jpg     파손된 옹벽의 전단·현수막. 전화번호, 이메일, QR (글자 합성)
+car-contact-sign.jpg        소화전을 막은 차량. 연락처 표지, 번호판 00가 0000 (글자 합성)
+storefront-sign-phone.jpg   쓰러진 입간판·쓰레기가 있는 상가와 성인 가상 인물 2명. 가상 상호 샘플 세탁소, 간판 전화번호, 얼굴 (글자 합성)
+bench-name-badge.jpg        부서진 벤치 위 명찰(사물만). 샘플고등학교, 김샘플, "견본" (글자 합성)
+van-student-list.jpg        횡단보도 위 차량 창의 명단. 샘플학원, 학생 가명 6명 (글자 합성). 인물 없음
+sidewalk-sample-cards.jpg   깨진 보도블록 위 일반 카드 2장. "견본", 가명, 0으로 채운 번호, 전화번호 (글자 합성)
+bench-phone-chat.jpg        낙서·쓰레기 벤치 위 휴대폰 화면. 계정명, 주소, 전화번호, 이메일 (화면 합성)
+street-faces-trash.jpg      쌓인 쓰레기 옆 성인 행인 3명. AI가 만든 가상 인물이며 실존 인물이 아니다 (글자 합성 없음. 먼 차량의 엠블럼 형태와 옷의 로고 형태 표시는 지웠다)
+jacket-name-pothole.jpg     도로 파손 앞 성인 가상 인물의 뒷모습. 옷의 이름 홍길동 (글자 합성)
+arm-tattoo-dumping.jpg      파손 가로등·폐가구를 가리키는 성인 가상 인물의 문신 팔 (글자 합성 없음)
+
+
+[3] 메뉴별 합성 예시 사진 (생활·분실물·지갑·신분증, manifest의 synthetic: true)
+
+아래 12장도 실제 장면을 찍은 사진이 아니다. 들어 있는 이름·번호·주소·호수·유치원·학교·반려견 이름은 모두 가짜다.
+카드류는 실제 신분증·학생증·카드 디자인이나 기관·카드사 로고를 흉내 내지 않은 흰 카드이고 "견본"을 크게 넣었다.
+
+공통 제작 방식
+  배경: [2]와 같이 OpenAI Codex CLI 0.166.0의 내장 이미지 생성 도구(image_gen)로 생성. 사용자의 ChatGPT 로그인으로 실행했고 API 키는 쓰지 않았다.
+  외부 저작물: 배경에 외부 사진을 쓰지 않았으므로 저작자 표시 대상 소재가 없다.
+  글자 합성: 배경에는 빈 흰 라벨·종이·카드·화면만 그리게 한 뒤, Python(Pillow, NumPy)으로 가짜 글자를 원근 변환해 곱하기 합성(화면은 치환)하고 노이즈를 더했다.
+  글꼴: Windows 맑은 고딕(Malgun Gothic). 이미지 안에 렌더링한 글자로만 쓰며 글꼴 파일은 배포하지 않는다.
+  저장: 긴 변 1600px, JPEG, EXIF 없음.
+
+파일별 내용 (괄호 안은 합성 여부)
+life-sidewalk-trip.jpg      나무뿌리로 들뜬 보도블록과 쏟아진 장바구니, 지나가는 성인 가상 인물 1명의 얼굴 (글자 합성 없음)
+life-leak-mailbox.jpg       아파트 현관 천장 누수·물고임. 현관 호수 1203호, 우편함 이름표 6개(호수·가명) (글자 합성)
+life-bulky-sticker.jpg      수거 대기 중인 소파·수납장의 대형폐기물 스티커 "견본". 신청인 가명, 전화번호, 동·호수, 0으로 채운 신고번호 (글자 합성)
+life-noise-notice.jpg       엘리베이터 앞 게시판의 층간소음 안내문. 호수, 가명, 전화번호 (글자 합성)
+lost-bench-bag.jpg          공원 벤치에 두고 간 우산·가방. 가방 이름표의 가명·전화번호 (글자 합성). 인물 없음
+lost-playground-bottle.jpg  놀이터 바닥에 떨어진 물병·파우치. 물병 이름 스티커의 가상 유치원 반·가명 (글자 합성). 아이 인물 없음, 사물만
+lost-dog-tag.jpg            단지 산책로의 강아지. 목걸이 인식표의 이름·전화번호 (글자 합성). 견주 인물 없음
+lost-keys-park.jpg          공원 벤치에 두고 간 열쇠. 열쇠고리 이름표의 가명·전화번호 (글자 합성)
+lost-phone-screen.jpg       상가 앞 테이블에 두고 간 휴대폰 잠금화면. 알림 속 가명·동·호수·전화번호 (화면 합성)
+idwallet-wallet-card.jpg    횡단보도 앞 인도에 떨어진 지갑과 카드 "견본". 가명, 0으로 채운 카드번호 (글자 합성)
+idwallet-student-card.jpg   학교 운동장 옆 벤치 위 흰 학생증 "견본"(사물만). 가상 학교, 가명, 0으로 채운 학번, 빈 사진 칸 (글자 합성). 인물 없음
+idwallet-id-card.jpg        버스정류장 벤치 위 흰 가짜 신분 카드 "견본". 실제 주민등록증 디자인이 아니다. 가명, 000000-0000000, 가짜 주소, 빈 사진 칸 (글자 합성)
+
+
+[4] 분실·습득 메뉴의 사람·반려동물 합성 예시 사진 (manifest의 synthetic: true)
+
+아래 5장도 실제 장면을 찍은 사진이 아니다. 사람(성인·아이)과 반려동물은 모두 이미지 생성 모델이 만든 가상 인물·동물이며 실존 인물이나 실제 사진을 바탕으로 하지 않았다.
+인식표·이름표의 이름·전화번호·유치원·반 이름은 모두 가짜다(샘플·가명, 010-0000-xxxx).
+
+공통 제작 방식
+  배경: [3]과 같이 OpenAI Codex CLI의 내장 이미지 생성 도구(image_gen)로 생성. 사용자의 ChatGPT 로그인으로 실행했고 API 키는 쓰지 않았다.
+  외부 저작물: 외부 사진을 쓰지 않았으므로 저작자 표시 대상 소재가 없다.
+  글자 합성: 배경에는 빈 흰 인식표·이름표만 그리게 한 뒤, Python(Pillow, NumPy)으로 가짜 글자를 원근 변환해 곱하기 합성하고 노이즈를 더했다.
+  글꼴: Windows 맑은 고딕(Malgun Gothic). 이미지 안에 렌더링한 글자로만 쓰며 글꼴 파일은 배포하지 않는다.
+  저장: 긴 변 1600px, JPEG, EXIF 없음.
+
+파일별 내용 (괄호 안은 합성 여부)
+lost-pet-dog-walk.jpg       단지 공원 산책로에서 몰티즈를 산책시키는 성인 가상 인물 1명의 얼굴. 인식표의 반려견 이름·전화번호 (글자 합성)
+lost-pet-cat-home.jpg       아파트 베란다 창가의 치즈 고양이. 목걸이 이름표의 이름·전화번호 (글자 합성). 인물 없음
+found-dog-street.jpg        상가 앞 인도에 혼자 있는 푸들. 인식표의 이름·전화번호 (글자 합성). 가까운 인물 없음
+lost-family-photo.jpg       공원 잔디밭의 성인 가상 인물과 가상 아이의 얼굴. 아이 가방 이름표의 가상 유치원 반·가명·전화번호 (글자 합성)
+found-child-backpack.jpg    공원 벤치에 두고 간 아이 가방과 뒤에서 걸어오는 성인 가상 인물 1명의 얼굴. 가방 이름표의 가상 유치원 반·가명·전화번호 (글자 합성, 재킷의 작은 로고 형태 점은 지웠다)

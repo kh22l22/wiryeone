@@ -1,0 +1,562 @@
+[
+ {
+  "id": "commercial-songpa-1",
+  "label": "GS더프레시 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.481096,
+  "lng": 127.142233,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "commercial-hanam-1",
+  "label": "노브랜드 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.48059,
+  "lng": 127.148182,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "commercial-sujeong-1",
+  "label": "다이소 남위례역점 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.463907,
+  "lng": 127.140621,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "commercial-songpa-2",
+  "label": "대길프라자 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.481778,
+  "lng": 127.142285,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "commercial-sujeong-2",
+  "label": "대원프라자 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.465542,
+  "lng": 127.138969,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "commercial-songpa-3",
+  "label": "두꺼비 왕 식자재마트 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.476533,
+  "lng": 127.132876,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "commercial-sujeong-3",
+  "label": "성희프라자 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.464434,
+  "lng": 127.139475,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "commercial-hanam-2",
+  "label": "스타필드시티 위례 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.479963,
+  "lng": 127.148675,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "commercial-hanam-3",
+  "label": "이마트 근처",
+  "scene": "commercial",
+  "remote": false,
+  "lat": 37.479628,
+  "lng": 127.148402,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "apartment-sujeong-1",
+  "label": "e편한세상 테라스위례 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.466277,
+  "lng": 127.152511,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "apartment-sujeong-2",
+  "label": "래미안 위례 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.470092,
+  "lng": 127.144961,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "apartment-sujeong-3",
+  "label": "성남위례LH36단지 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.471866,
+  "lng": 127.134703,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "apartment-songpa-1",
+  "label": "송파꿈에그린 위례24단지 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.476113,
+  "lng": 127.140121,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "apartment-songpa-2",
+  "label": "송파더센트레 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.479286,
+  "lng": 127.13989,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "apartment-songpa-3",
+  "label": "송파레이크파크 호반써밋1차 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.484017,
+  "lng": 127.138948,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "apartment-hanam-1",
+  "label": "위례그린파크푸르지오 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.473374,
+  "lng": 127.155436,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "apartment-hanam-2",
+  "label": "위례로제비앙 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.4872,
+  "lng": 127.158648,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "apartment-hanam-3",
+  "label": "위례롯데캐슬 근처",
+  "scene": "apartment",
+  "remote": false,
+  "lat": 37.475184,
+  "lng": 127.152525,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "park-songpa-1",
+  "label": "석가산잔디마당 근처",
+  "scene": "park",
+  "remote": false,
+  "lat": 37.485417,
+  "lng": 127.149067,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "park-songpa-2",
+  "label": "송례근린공원 근처",
+  "scene": "park",
+  "remote": false,
+  "lat": 37.47772,
+  "lng": 127.140995,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "park-sujeong-1",
+  "label": "위례역사수변공원 근처",
+  "scene": "park",
+  "remote": false,
+  "lat": 37.469247,
+  "lng": 127.140574,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "park-songpa-3",
+  "label": "위례호수공원 근처",
+  "scene": "park",
+  "remote": false,
+  "lat": 37.482952,
+  "lng": 127.144632,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "park-hanam-1",
+  "label": "힐링포레스트 근처",
+  "scene": "park",
+  "remote": false,
+  "lat": 37.47369,
+  "lng": 127.155218,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "school-songpa-1",
+  "label": "덕수고등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.485338,
+  "lng": 127.146826,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "school-songpa-2",
+  "label": "서울송례초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.477717,
+  "lng": 127.138541,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "school-songpa-3",
+  "label": "서울위례솔초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.486649,
+  "lng": 127.15092,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "school-hanam-1",
+  "label": "위례고등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.47685,
+  "lng": 127.150617,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "school-sujeong-1",
+  "label": "위례고운초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.471219,
+  "lng": 127.146084,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "school-hanam-2",
+  "label": "위례숲초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.484783,
+  "lng": 127.158117,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "school-sujeong-2",
+  "label": "위례중앙초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.471655,
+  "lng": 127.136036,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "school-hanam-3",
+  "label": "위례중학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.477184,
+  "lng": 127.148523,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "school-sujeong-3",
+  "label": "위례푸른초등학교 근처",
+  "scene": "school",
+  "remote": false,
+  "lat": 37.47051,
+  "lng": 127.150984,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "road-songpa-1",
+  "label": "위례광장로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.481445,
+  "lng": 127.143191,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "road-sujeong-1",
+  "label": "위례동로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.464315,
+  "lng": 127.146294,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "road-sujeong-2",
+  "label": "위례동이로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.466901,
+  "lng": 127.153482,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "road-songpa-2",
+  "label": "위례북로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.486734,
+  "lng": 127.147914,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "road-sujeong-3",
+  "label": "위례서로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.467152,
+  "lng": 127.136821,
+  "jitterM": 30,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "road-songpa-3",
+  "label": "위례서이로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.483329,
+  "lng": 127.13749,
+  "jitterM": 30,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "road-hanam-1",
+  "label": "위례학암로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.48715,
+  "lng": 127.159491,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "road-hanam-2",
+  "label": "위례대로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.480389,
+  "lng": 127.148186,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "road-hanam-3",
+  "label": "위례순환로 근처",
+  "scene": "road",
+  "remote": false,
+  "lat": 37.473374,
+  "lng": 127.155436,
+  "jitterM": 30,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "backstreet-hanam-1",
+  "label": "위례대로4길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.481027,
+  "lng": 127.15207,
+  "jitterM": 25,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "backstreet-hanam-2",
+  "label": "위례대로6길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.486074,
+  "lng": 127.152697,
+  "jitterM": 25,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "backstreet-songpa-1",
+  "label": "위례북로1길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.488315,
+  "lng": 127.150164,
+  "jitterM": 25,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "backstreet-songpa-2",
+  "label": "위례북로3길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.489384,
+  "lng": 127.152101,
+  "jitterM": 25,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "backstreet-songpa-3",
+  "label": "위례북로4길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.488442,
+  "lng": 127.152473,
+  "jitterM": 25,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "backstreet-sujeong-1",
+  "label": "위례서일로1길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.466002,
+  "lng": 127.137021,
+  "jitterM": 25,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "backstreet-sujeong-2",
+  "label": "위례서일로3길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.465397,
+  "lng": 127.138309,
+  "jitterM": 25,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "backstreet-sujeong-3",
+  "label": "위례순환로4길 근처",
+  "scene": "backstreet",
+  "remote": false,
+  "lat": 37.46969,
+  "lng": 127.147816,
+  "jitterM": 25,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "forest-hanam-1",
+  "label": "하남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.479,
+  "lng": 127.1614,
+  "jitterM": 50,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "forest-hanam-2",
+  "label": "하남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4782,
+  "lng": 127.1662,
+  "jitterM": 50,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "forest-hanam-3",
+  "label": "하남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4762,
+  "lng": 127.1678,
+  "jitterM": 50,
+  "jurisdiction": "hanam"
+ },
+ {
+  "id": "forest-songpa-1",
+  "label": "송파 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4862,
+  "lng": 127.1466,
+  "jitterM": 50,
+  "jurisdiction": "songpa"
+ },
+ {
+  "id": "forest-sujeong-1",
+  "label": "성남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4674,
+  "lng": 127.155,
+  "jitterM": 50,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "forest-sujeong-2",
+  "label": "성남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4634,
+  "lng": 127.147,
+  "jitterM": 50,
+  "jurisdiction": "sujeong"
+ },
+ {
+  "id": "forest-sujeong-3",
+  "label": "성남 위례 숲 가장자리 근처",
+  "scene": "forest",
+  "remote": true,
+  "lat": 37.4682,
+  "lng": 127.1578,
+  "jitterM": 50,
+  "jurisdiction": "sujeong"
+ }
+]
