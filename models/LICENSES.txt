@@ -1,0 +1,24 @@
+앱에 포함한 모델과 런타임의 출처·라이선스
+
+face_yunet_2023mar.onnx
+  YuNet (opencv/face_detection_yunet, MIT, Copyright (c) 2020 Shiqi Yu)
+  입력 크기 동적화: https://huggingface.co/meinvirgos/face_detection_yunet_dynamic (Apache-2.0 표기). 가중치는 원본과 동일.
+
+plate_yolov9t640.onnx
+  yolo-v9-t-640-license-plates-end2end, https://github.com/ankandrew/open-image-models (저장소 MIT)
+  주의: 저자는 학습에 GPL-3.0인 WongKinYiu/yolov9 포크를 썼다고 밝혔고, GPL이 가중치에 적용되는지는 판단하지 않았다(이슈 #20, #22). 학습 데이터는 수집 이미지 약 1.5만 장으로 출처 미공개.
+
+ort/ort.wasm.min.mjs, ort/ort-wasm-simd-threaded.mjs, ort/ort-wasm-simd-threaded.wasm
+  onnxruntime-web 1.31.1 (MIT, Microsoft)
+
+screen_yolox_nano.onnx
+  YOLOX-Nano, Megvii-BaseDetection/YOLOX 릴리스 0.1.1rc0 (Apache-2.0). COCO 사전학습 가중치.
+
+zxing/zxing_reader.wasm
+  zxing-wasm (MIT, Sec-ant), zxing-cpp 기반 (Apache-2.0)
+
+ocr/det_ppocrv3.onnx
+  PaddleOCR PP-OCRv3 글자 탐지 (Apache-2.0). ONNX 변환본: https://huggingface.co/SWHL/RapidOCR (Apache-2.0)
+
+ocr/rec_korean_ppocrv5.onnx, ocr/korean_dict.txt
+  PaddleOCR PP-OCRv5 한국어 인식 (Apache-2.0). ONNX 변환본: https://huggingface.co/monkt/paddleocr-onnx (Apache-2.0)
