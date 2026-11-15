@@ -1,0 +1,23 @@
+[
+  { "file": "road-pothole-1.jpg", "label": "도로 포트홀 옆 행인·차량", "group": "도로·보도 파손", "type": "R1", "synthetic": true },
+  { "file": "sidewalk-block-2.jpg", "label": "들뜬 보도블록과 전단", "group": "도로·보도 파손", "type": "R1", "synthetic": true },
+  { "file": "sidewalk-sink-3.jpg", "label": "꺼진 보도와 택배 송장", "group": "도로·보도 파손", "type": "R1", "synthetic": true },
+  { "file": "streetlight-broken-1.jpg", "label": "휜 가로등과 행인", "group": "가로등·시설물", "type": "R2", "synthetic": true },
+  { "file": "bus-shelter-broken-2.jpg", "label": "깨진 정류장 유리와 휴대폰", "group": "가로등·시설물", "type": "R2", "synthetic": true },
+  { "file": "bollard-sign-3.jpg", "label": "쓰러진 볼라드 옆 차량", "group": "가로등·시설물", "type": "R2", "synthetic": true },
+  { "file": "dumping-bags-1.jpg", "label": "무단투기 속 송장·영수증", "group": "쓰레기·환경", "type": "R3", "synthetic": true },
+  { "file": "dumping-furniture-2.jpg", "label": "폐가구 투기와 행인", "group": "쓰레기·환경", "type": "R3", "synthetic": true },
+  { "file": "litter-stream-3.jpg", "label": "하천 쓰레기와 우편물", "group": "쓰레기·환경", "type": "R3", "synthetic": true },
+  { "file": "playground-broken-1.jpg", "label": "망가진 놀이기구와 게시물", "group": "공원·녹지", "type": "R5", "synthetic": true },
+  { "file": "park-bench-2.jpg", "label": "부서진 벤치 위 휴대폰·사원증", "group": "공원·녹지", "type": "R5", "synthetic": true },
+  { "file": "fallen-tree-3.jpg", "label": "차를 덮친 가로수", "group": "공원·녹지", "type": "R5", "synthetic": true },
+  { "file": "kickboard-sidewalk-1.jpg", "label": "보도를 막은 킥보드", "group": "킥보드·자전거 방치", "type": "R6", "synthetic": true },
+  { "file": "bike-abandoned-2.jpg", "label": "방치 자전거와 송장", "group": "킥보드·자전거 방치", "type": "R6", "synthetic": true },
+  { "file": "kickboard-crosswalk-3.jpg", "label": "횡단보도 앞 킥보드", "group": "킥보드·자전거 방치", "type": "R6", "synthetic": true },
+  { "file": "stray-dog-1.jpg", "label": "떠도는 개와 전단", "group": "동물·야생동물", "type": "R8", "synthetic": true },
+  { "file": "injured-bird-2.jpg", "label": "다친 비둘기와 안내문", "group": "동물·야생동물", "type": "R8", "synthetic": true },
+  { "file": "animal-carpark-3.jpg", "label": "차 밑 다친 고양이", "group": "동물·야생동물", "type": "R8", "synthetic": true },
+  { "file": "lost-wallet-bench-1.jpg", "label": "벤치 위 지갑과 카드", "group": "주운 물건(지갑·카드 등)", "type": "L1", "synthetic": true },
+  { "file": "lost-card-busstop-2.jpg", "label": "정류장 앞 학생증·교통카드", "group": "주운 물건(지갑·카드 등)", "type": "L1", "synthetic": true },
+  { "file": "lost-parcel-sidewalk-3.jpg", "label": "길에 떨어진 택배·사원증", "group": "주운 물건(지갑·카드 등)", "type": "L1", "synthetic": true }
+]
